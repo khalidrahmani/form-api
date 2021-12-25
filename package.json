@@ -1,0 +1,22 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "restify": "*",
+    "validator": "*",
+    "redis-fast-driver": "*",
+    "slugify": "*",
+    "titleize": "*",
+    "parse-full-name": "*"    
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "mocha": "*",
+    "request": "*",
+    "csvtojson": "*"
+  }
+}
